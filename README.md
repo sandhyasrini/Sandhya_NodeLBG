@@ -5,6 +5,10 @@
 1. `npm install`
 2. `npm start`
 
+### Steps to run test
+  `npm test`
+
+
 
 ### API Reference
 |Route                      | HTTP Verb   |Description                                               |
