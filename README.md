@@ -7,10 +7,12 @@
 
 
 ### API Reference
-|Route         | HTTP Verb   |Description         |
-|--------------|:-----------:|:------------------:|
-|/api/bears    |GET          |Get all the bears   |
-|/api/bears    |POST         |Create a new bear   |
-|/api/bears/:id|PUT          |Modify a bear       |
-|/api/bears/:id|DELETE       |Delete a bear       |
+|Route                      | HTTP Verb   |Description         |
+|--------------------------:|:-----------:|:------------------:|
+|/sendFile                  |GET          |Get all the bears   |
+|/product                   |GET          |Create a new bear   |
+|/uploadFile                |GET          |Modify a bear       |
+|/nonRepeatingChar/:string  |GET          |Delete a bear       |
+|/webCrawler                |POST         |Get all the bears   |
+
 
