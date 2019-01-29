@@ -6,7 +6,7 @@
 2. `npm start`
 
 ### Steps to run test
-  `npm test`
+   `npm test`
 
 
 
