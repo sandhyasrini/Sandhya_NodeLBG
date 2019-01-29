@@ -8,7 +8,7 @@
 
 ### API Reference
 |Route                      | HTTP Verb   |Description         |
-|--------------------------:|:-----------:|:------------------:|
+|---------------------------|:-----------:|:------------------:|
 |/sendFile                  |GET          |Get all the bears   |
 |/product                   |GET          |Create a new bear   |
 |/uploadFile                |GET          |Modify a bear       |
