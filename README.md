@@ -1,4 +1,7 @@
 <h1> LBG NodeJS Assessment </h1>
-<span><strong> Steps to run </strong></span>
 
+### Steps to run
+
+1. `npm install`
+2. `npm start`
 
