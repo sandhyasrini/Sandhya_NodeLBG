@@ -7,12 +7,12 @@
 
 
 ### API Reference
-|Route                      | HTTP Verb   |Description         |
-|---------------------------|:-----------:|:------------------:|
-|/sendFile                  |GET          |Get all the bears   |
-|/product                   |GET          |Create a new bear   |
-|/uploadFile                |GET          |Modify a bear       |
-|/nonRepeatingChar/:string  |GET          |Delete a bear       |
-|/webCrawler                |POST         |Get all the bears   |
+|Route                      | HTTP Verb   |Description                                               |
+|---------------------------|:-----------:|:--------------------------------------------------------:|
+|/sendFile                  |GET          |outputs a file from local directory                       |
+|/product                   |GET          |product of two numbers                                    |
+|/uploadFile                |POST         |accepts file content and writes to disk                   |
+|/nonRepeatingChar/:string  |GET          |finds the first non repeating element in the string       |
+|/webCrawler                |POST         |creates a sitemap for any website                         |
 
 
