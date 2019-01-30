@@ -61,7 +61,7 @@ Query Parameters
 
 * **Inputs:**
 Body Parameter
-(Upload file as form-data with sampleFile as the key name)
+(Upload file as form-data with sampleFile as the key name and the type as file)
 
 * **Sample Call:**
 
