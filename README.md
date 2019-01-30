@@ -38,6 +38,7 @@ None
     **Content:** `displays file content from the src/files directory`
     
     
+    
 ### GET /product
 
 * **Inputs:**
@@ -53,6 +54,7 @@ Query Parameters
 
   * **Code:** 200 <br />
     **Content:** `The product of 2 * 10 is 20`
+
 
 
 ### POST /uploadFile
