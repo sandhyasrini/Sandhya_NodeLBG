@@ -94,7 +94,7 @@ URL Parameter
     
     
     
-    ### GET /webCrawler
+ ### GET /webCrawler
 
 * **Inputs:**
 Body Parameter(Pass value in raw JSON format.Eg: { "url": "http://wiprodigital.com" } )
@@ -109,3 +109,9 @@ Body Parameter(Pass value in raw JSON format.Eg: { "url": "http://wiprodigital.c
 
   * **Code:** 200 <br />
     **Content:** `Sitemap created`
+    
+    
+    
+    
+    # All routes are tested in POSTMAN
+
