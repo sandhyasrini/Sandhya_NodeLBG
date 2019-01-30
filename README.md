@@ -73,7 +73,8 @@ Body Parameter
 
   * **Code:** 200 <br />
     **Content:** `File uploaded!`
-    uploaded file is stored in the src/files directory
+   
+   uploaded file is stored in the src/files directory
 
 
 
@@ -110,7 +111,10 @@ Body Parameter(Pass value in raw JSON format.Eg: { "url": "http://wiprodigital.c
 
   * **Code:** 200 <br />
     **Content:** `Sitemap created`
-    creates a sitemap.xml in src/sitemap directory
+   
+   creates a sitemap.xml in src/sitemap directory
+    
+    Average Time taken: 20 to 30 secs
     
     
     
