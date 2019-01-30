@@ -1,7 +1,8 @@
 const webCrawler = require("express")()
-    , SitemapGenerator = require('sitemap-generator');
+  , SitemapGenerator = require('sitemap-generator');
 
 webCrawler.post('/webCrawler', (req, res) => {
+  
   // create generator
   const generator = SitemapGenerator(req.body.url, {
     stripQuerystring: true,
@@ -10,15 +11,20 @@ webCrawler.post('/webCrawler', (req, res) => {
 
   // register event listeners
   generator.on('done', (err, res) => {
-    console.info('Sitemap created');
-    sendResponse();
+    if (err) {
+      siteMapCreationFailed();
+    }
+    siteMapCreated();
   });
 
   // start the crawler
   generator.start();
 
-  function sendResponse() {
+  function siteMapCreated() {
     res.send('Sitemap created');
+  }
+  function siteMapCreationFailed() {
+    return res.send('Sitemap created');
   }
 });
 
