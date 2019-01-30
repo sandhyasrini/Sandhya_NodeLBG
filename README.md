@@ -99,7 +99,9 @@ URL Parameter
  ### POST /webCrawler
 
 * **Inputs:**
-Body Parameter(Pass value in raw JSON format.Eg: { "url": "http://wiprodigital.com" } )
+Body Parameter(Pass value in raw JSON format )
+
+{ "url": "http://wiprodigital.com" } 
 
 * **Sample Call:**
 
