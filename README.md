@@ -101,7 +101,7 @@ URL Parameter
 * **Inputs:**
 Body Parameter(Pass value in raw JSON format )
 
-{ "url": "http://wiprodigital.com" } 
+   { "url": "http://wiprodigital.com" } 
 
 * **Sample Call:**
 
