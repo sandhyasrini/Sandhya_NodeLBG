@@ -24,7 +24,7 @@ webCrawler.post('/webCrawler', (req, res) => {
     res.send('Sitemap created');
   }
   function siteMapCreationFailed() {
-    return res.send('Sitemap created');
+    return res.send('Sitemap creation failed');
   }
 });
 
