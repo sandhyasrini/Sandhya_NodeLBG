@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
     "cheerio": "^1.0.0-rc.2",
     "connect-flash": "^0.1.1",
     "ejs": "^2.6.1",
@@ -18,6 +21,7 @@
     "flash": "^1.1.0",
     "fs": "0.0.1-security",
     "js-crawler": "^0.3.21",
+    "mocha": "^5.2.0",
     "request": "^2.88.0",
     "sitemap-generator": "^8.3.2",
     "url-parse": "^1.4.4"
