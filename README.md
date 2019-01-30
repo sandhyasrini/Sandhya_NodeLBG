@@ -1,16 +1,16 @@
 <h1> LBG NodeJS Assessment </h1>
 
-### Steps to run
+## Steps to run
 
 1. `npm install`
 2. `npm start`
 
-### Steps to run test
+## Steps to run test
    `npm test`
 
 
 
-### API Reference
+## API Reference
 |Route                      | HTTP Verb   |Description                                               |
 |---------------------------|:-----------:|:--------------------------------------------------------:|
 |/sendFile                  |GET          |outputs a file from local directory                       |
@@ -19,4 +19,4 @@
 |/nonRepeatingChar/:string  |GET          |finds the first non repeating element in the string       |
 |/webCrawler                |POST         |creates a sitemap for given website                       |
 
-
+## API Description
