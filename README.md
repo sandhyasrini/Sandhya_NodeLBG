@@ -29,7 +29,11 @@ None
 * **Sample Call:**
 
   ```
-  GET /sendFile
+   /sendFile
   ```
+  
+* **Success Response:**
 
+  * **Code:** 200 <br />
+    **Content:** `displays file content from the src/files directory`
 
