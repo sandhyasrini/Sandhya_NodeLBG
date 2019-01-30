@@ -61,15 +61,16 @@ Query Parameters
 
 * **Inputs:**
 Body Parameter
+(Upload in form-data with key as sampleFile)
 
 * **Sample Call:**
 
   ```
-   /product?number1=2&number2=10
+   /uploadFile
   ```
   
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `The product of 2 * 10 is 20`
+    **Content:** `File uploaded!`
 
