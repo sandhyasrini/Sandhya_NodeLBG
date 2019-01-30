@@ -14,7 +14,7 @@
 |Route                      | HTTP Verb   |Description                                               |
 |---------------------------|:-----------:|:--------------------------------------------------------:|
 |/sendFile                  |GET          |outputs a file from local directory                       |
-|/product                   |GET          |produces the product of 2 numbers given in query          |
+|/product/:number1/:number2 |GET          |produces the product of 2 numbers                         |
 |/uploadFile                |POST         |accepts file content and writes to disk                   |
 |/nonRepeatingChar/:string  |GET          |finds the first non repeating element in the string       |
 |/webCrawler                |POST         |creates a sitemap for given website                       |
@@ -39,7 +39,7 @@ None
     
     
     
-### GET /product
+### GET /product/:number1/:number2
 
 * **Inputs:**
 Query Parameters
@@ -47,7 +47,7 @@ Query Parameters
 * **Sample Call:**
 
   ```
-   /product?number1=2&number2=10
+   /product/2/10
   ```
   
 * **Success Response:**
