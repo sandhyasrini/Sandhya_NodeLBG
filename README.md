@@ -20,3 +20,16 @@
 |/webCrawler                |POST         |creates a sitemap for given website                       |
 
 ## API Description
+
+### GET /sendFile
+
+* **Inputs:**
+None
+
+* **Sample Call:**
+
+  ```
+  GET /sendFile
+  ```
+
+
