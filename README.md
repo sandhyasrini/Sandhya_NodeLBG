@@ -74,3 +74,38 @@ Body Parameter
   * **Code:** 200 <br />
     **Content:** `File uploaded!`
 
+
+
+### GET /nonRepeatingChar/:string
+
+* **Inputs:**
+URL Parameter
+
+* **Sample Call:**
+
+  ```
+   /nonRepeatingChar/character
+  ```
+  
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** `h`
+    
+    
+    
+    ### GET /webCrawler
+
+* **Inputs:**
+Body Parameter(Pass value in raw JSON format.Eg: { "url": "http://wiprodigital.com" } )
+
+* **Sample Call:**
+
+  ```
+   /webCrawler
+  ```
+  
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** `Sitemap created`
