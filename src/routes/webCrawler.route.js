@@ -12,11 +12,15 @@ webCrawler.post('/webCrawler', (req, res) => {
   // register event listeners
   generator.on('done', (err, res) => {
     if (err) {
-    	console.log(err);
       siteMapCreationFailed();
     }
     siteMapCreated();
   });
+
+  generator.on('error', (error) => {
+  console.log(error);
+      siteMapCreationFailed();
+});
 
   // start the crawler
   generator.start();
