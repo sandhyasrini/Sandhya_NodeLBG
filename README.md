@@ -36,4 +36,38 @@ None
 
   * **Code:** 200 <br />
     **Content:** `displays file content from the src/files directory`
+    
+    
+### GET /product
+
+* **Inputs:**
+Query Parameters
+
+* **Sample Call:**
+
+  ```
+   /product?number1=2&number2=10
+  ```
+  
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** `The product of 2 * 10 is 20`
+
+
+### POST /uploadFile
+
+* **Inputs:**
+Body Parameter
+
+* **Sample Call:**
+
+  ```
+   /product?number1=2&number2=10
+  ```
+  
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** `The product of 2 * 10 is 20`
 
