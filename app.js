@@ -5,6 +5,8 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 const PORT = process.env.PORT || 3001;
+var sm = require('sitemap')
+    , fs = require('fs');
 
 const sendFile = require("./src/routes/readfile.route.js"),
     product = require("./src/routes/product.route.js"),

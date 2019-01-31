@@ -22,7 +22,9 @@
     "fs": "0.0.1-security",
     "js-crawler": "^0.3.21",
     "mocha": "^5.2.0",
+    "moment": "^2.24.0",
     "request": "^2.88.0",
+    "sitemap": "^2.1.0",
     "sitemap-generator": "^8.3.2",
     "url-parse": "^1.4.4"
   }
