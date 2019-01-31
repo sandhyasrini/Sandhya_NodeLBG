@@ -116,7 +116,7 @@ Body Parameter(Pass url value in raw JSON format )
        
        creates a sitemap.xml in src/sitemap directory
        
-       Average Time taken: 20 to 30 secs
+       Average Time taken: 30 secs
     
     
     
