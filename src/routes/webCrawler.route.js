@@ -6,7 +6,7 @@ var fs = require('fs');
 
 webCrawler.post('/webCrawler', (req, res) => {
 
-  let imageSite;
+  let imageSite = "";
   req.setTimeout(0);
   // create generator
   let filename = __dirname + '/../sitemap/sitemap' + Date.now() + '.txt'
@@ -64,8 +64,16 @@ webCrawler.post('/webCrawler', (req, res) => {
       if (!err) {
 
         images.forEach(element => {
+          if(element.url.includes("google") || element.url.includes("twitter") || element.url.includes("facebook")  )
+         {
+
+         }
+         else{
+          if(!element.url.includes("?"))
           imageSite = imageSite + element.url + "\r\n";
-          
+          else
+          imageSite = imageSite + element.url.split('?')[0] + "\r\n";
+         }
         });
         fs.appendFile(filename, imageSite, function (err, data) {
           if (err) console.log(err);
