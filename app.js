@@ -7,6 +7,7 @@ app.use(bodyParser.json());
 const PORT = process.env.PORT || 3001;
 var sm = require('sitemap')
     , fs = require('fs');
+var getImageUrls = require('get-image-urls');
 
 const sendFile = require("./src/routes/readfile.route.js"),
     product = require("./src/routes/product.route.js"),
@@ -18,7 +19,6 @@ app.use('/', (req, res, next) => {
     console.log('Request Type:', req.method);
     next();
 }, sendFile, product, uploadFile, nonRepeatingChar, webCrawler);
-
 
 
 app.listen(PORT, () => {
