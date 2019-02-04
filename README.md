@@ -114,7 +114,7 @@ Body Parameter(Pass url value in raw JSON format )
   * **Code:** 200 <br />
     **Content:** `Sitemap created`
        
-       creates a sitemap.txt in src/sitemap directory
+       creates a .txt in src/sitemap directory
        
        Average Time taken: 30 secs
     
